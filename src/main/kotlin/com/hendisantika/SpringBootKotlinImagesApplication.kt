@@ -1,4 +1,4 @@
-package com.hendxiasntika
+package com.hendisantika
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
