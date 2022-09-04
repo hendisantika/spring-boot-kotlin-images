@@ -24,4 +24,8 @@ class UserService(private val userRepository: UserRepository) {
         userRepository.save(user)
     }
 
+    fun getProfilePicture(id: Long): ByteArray {
+        val user: User = userRepository.findById(id).orElseThrow()
+        return user.profilePicture
+    }
 }
